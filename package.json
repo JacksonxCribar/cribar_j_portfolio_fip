@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/JacksonxCribar/cribar_j_portfolio_fip#readme",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "sass": "^1.44.0"
   }
 }
