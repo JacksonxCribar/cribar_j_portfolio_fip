@@ -1,0 +1,27 @@
+{
+  "name": "cribar_j_portfolio_fip",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonxCribar/cribar_j_portfolio_fip.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package"
+  ],
+  "author": "JC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacksonxCribar/cribar_j_portfolio_fip/issues"
+  },
+  "homepage": "https://github.com/JacksonxCribar/cribar_j_portfolio_fip#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
