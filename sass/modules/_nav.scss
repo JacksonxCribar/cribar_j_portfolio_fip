@@ -1,0 +1,57 @@
+    .mainNav {
+     margin-top: 35px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: #005caa;
+    
+    
+    
+    
+    ul {
+        list-style-type: none;
+        position: relative;
+        text-align: center;
+        margin-right: 10px;
+        padding: 20px;
+        
+        
+        
+        }
+        
+    li {  
+        font-size: 100%; 
+        display: inline;
+        cursor: pointer;
+        color: white;
+        
+        
+        
+        
+            }
+    
+    }
+
+    .mainNav a:hover
+{
+	
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 15px;
+}
+
+
+
+   
+    
+    
+    
+
+
+        
+           
+
+  
