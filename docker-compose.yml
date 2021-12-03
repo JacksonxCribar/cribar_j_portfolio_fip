@@ -1,0 +1,42 @@
+version: '3'
+services:
+  app:
+    container_name: fip_app
+    build:
+      context: docker/app
+      dockerfile: Dockerfile
+    image: hw3/app
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8080:80"
+    networks:
+      - sdnet
+    working_dir:
+      /var/www/html
+  node:
+    container_name: fip_node
+#    restart: always
+    build:
+      context: docker/node
+      dockerfile: Dockerfile
+    image:
+      fip/node
+    volumes:
+      - .:/var/www/html
+    networks:
+      - sdnet
+    tty: true
+    working_dir:
+      /var/www/html
+  mailcatcher:
+    container_name: fip_email
+    image: tophfr/mailcatcher
+    ports:
+      - "1080:80"
+      - "1025:25"
+    networks:
+      - sdnet
+networks:
+  sdnet:
+    driver: "bridge"
